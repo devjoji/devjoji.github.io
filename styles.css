@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif, monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 250px;
+  }
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #cccccc62;
+    border-radius: 20px;
+    background-color: #ffffff77;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+}
+
+
+
+.skill-name {
+    font-weight: bold;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-bar {
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px; /* Adds a gap between the skill bars */
+}
+
+.skill-level {
+    height: 100%;
+    background-color: #f06c64;
+    transition: width 1s;
+    position: relative;
+}
+
+.html {
+    width: 90%;
+    background-color: #ff9900;
+}
+
+.css {
+    width: 85%;
+    background-color: #563d7c;
+}
+
+.javascript {
+    width: 80%;
+    background-color: #f7df1e;
+}
+
+.nodejs {
+    width: 75%;
+    background-color: #1b7a03;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.fa-github,
+.fa-discord {
+    font-size: 24px;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.fa-github:hover,
+.fa-discord:hover {
+    color: #007bff;
+}
+
+.skill-per {
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: -1px;
+    left: 100%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.3s;
+}
+
+.instagram {
+    background-image: url('icons/instagram-icon.png');
+}
+
+.github {
+    background-image: url('icons/github-icon.png');
+}
+
+.discord {
+    background-image: url('icons/discord-icon.png');
+}
+
+.twitter {
+    background-image: url('icons/twitter-icon.png');
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+
